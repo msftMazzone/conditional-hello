@@ -4,7 +4,7 @@ header {
 }
 
 main {
-  @apply px-4 tracking-wide max-w-6xl m-auto pb-80;
+  @apply px-4 tracking-wide max-w-6xl m-auto pb-32;
   @apply md:px-16;
 }
 
@@ -32,7 +32,7 @@ h3 {
   @apply font-semibold;
 }
 
-img {
+.murph {
   @apply h-96 rounded-md shadow-md ml-9;
 }
 

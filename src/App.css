@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+header {
+  @apply bg-neutral-800 text-3xl py-4 text-center;
+  @apply md:py-8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  @apply px-4 tracking-wide max-w-6xl m-auto pb-80;
+  @apply md:px-16;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  @apply font-semibold tracking-wider text-lg pt-4 pb-2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  @apply tracking-wide text-lg;
 }
 
-.App-link {
-  color: #61dafb;
+.semicolon {
+  @apply text-base px-[0.05rem];
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.well {
+  @apply bg-neutral-200 text-neutral-800 rounded-[0.25rem] px-3 py-1 my-1 max-w-2xl shadow-md;
+}
+
+.chatLine {
+  @apply py-1;
+}
+
+.chatName {
+  @apply font-semibold;
+}
+
+img {
+  @apply h-96 rounded-md shadow-md ml-9;
+}
+
+footer {
+  @apply text-center;
+}
+
+a {
+  @apply text-blue-400;
+  @apply hover:text-blue-500;
 }
